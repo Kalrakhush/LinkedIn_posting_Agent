@@ -1,0 +1,20 @@
+/* Custom styles for a modern, animated UI */
+body {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    border-radius: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #0077b5; /* LinkedIn blue */
+    border-color: #0077b5;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005582;
+  }
+  

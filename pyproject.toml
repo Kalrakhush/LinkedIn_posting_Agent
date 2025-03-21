@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "linkedin_posting_agent"
+version = "0.1.0"
+description = "A CrewAI agent system for generating and posting LinkedIn content with a beautiful web UI."
+authors = ["Khushpreet Singh"]
+readme = "README.md"
+packages = [{ include = "linkedin_posting_agent", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+crewai = "^0.105.0"   # Replace <latest_version> with the current release.
+linkedin-api = "^2.3.1"
+python-dotenv = "^1.0.0"
+Flask = "^2.2.0"               # For the web UI.
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
