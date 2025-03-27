@@ -1,0 +1,14 @@
+create_post_task:
+  description: >
+    Generate a polished LinkedIn post using the provided inputs:
+    topic, tone, audience, details, and hashtags.
+  expected_output: >
+    The final post content to be published on LinkedIn.
+  agent: content_creator
+
+post_to_linkedin_task:
+  description: >
+    Publish the generated post content on LinkedIn.
+  expected_output: >
+    A confirmation message indicating successful submission.
+  agent: linkedin_poster

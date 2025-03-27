@@ -1,0 +1,6 @@
+crewai
+python-dotenv
+langchain
+openai
+azure-openai
+langchain-community

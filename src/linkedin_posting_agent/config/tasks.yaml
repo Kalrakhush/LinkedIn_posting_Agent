@@ -1,0 +1,11 @@
+create_post_task:
+  description: "Create an engaging LinkedIn post based on the provided topic and details"
+  agent: "content_creator"
+  expected_output: "A well-crafted LinkedIn post with appropriate hashtags"
+  context: ["Create a professional LinkedIn post that will engage the target audience"]
+
+post_to_linkedin_task:
+  description: "Post the created content to LinkedIn"
+  agent: "linkedin_poster"
+  expected_output: "Confirmation of successful LinkedIn post"
+  context: ["Use the linkedin_poster tool to post the content to LinkedIn"]
